@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practice Project</string>
+    <string name="goButton">Practice Project</string>
+    <string name="userIdString">Practice Project</string>
+    <string name="userPasswordString">Practice Project</string>
+    <string name="loginButton">Practice Project</string>
+    <string name="backButton">Practice Project</string>
+    <string name="breakfastButton">Practice Project</string>
+    <string name="lunchButton">Practice Project</string>
+    <string name="snacksButton">Practice Project</string>
+</resources>

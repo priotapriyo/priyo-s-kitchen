@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/pic4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to PRIYO'S Kitchen!!!"
+        android:backgroundTint="@android:color/holo_purple"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/background_light"
+
+         />
+
+    <Button
+        android:id="@+id/goButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="GO..."
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</FrameLayout>

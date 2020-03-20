@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic6"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:layout_x="75dp"
+        android:layout_y="40dp"
+        android:text="Login Page"
+        android:textColor="@android:color/black"
+        android:textSize="40dp" />
+
+    <EditText
+
+        android:layout_width="232dp"
+        android:layout_height="70dp"
+        android:layout_x="77dp"
+        android:layout_y="178dp"
+        android:inputType="text"
+        android:textColor="@android:color/black" />
+
+    <EditText
+
+        android:layout_width="232dp"
+        android:layout_height="70dp"
+        android:layout_x="85dp"
+        android:layout_y="304dp"
+       android:inputType="textPassword"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_x="134dp"
+        android:layout_y="453dp"
+        android:padding="20dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/userIdString"
+        android:layout_width="131dp"
+        android:layout_height="70dp"
+        android:layout_x="79dp"
+        android:layout_y="146dp"
+        android:backgroundTint="@android:color/black"
+
+        android:text="User Name:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/userPasswordString"
+        android:layout_width="130dp"
+        android:layout_height="72dp"
+        android:layout_x="95dp"
+        android:layout_y="279dp"
+        android:backgroundTint="@android:color/black"
+
+        android:text="Password:"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>
